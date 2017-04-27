@@ -7,7 +7,7 @@ header = {
     'User-Agent': 'User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64) '
                   'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36'
 }
-for keyword in keywords[5:]:
+for keyword in keywords:
     url = 'https://www.google.com.hk/search?q=%s+%s+face&' \
           'newwindow=1&safe=strict&rlz=1C1CHZL_zh-CN__685__686&' \
           'tbm=isch&tbo=u&source=univ&sa=X&ved=0ahUKEwiigNKv877TAhUMzbwKHec8ATMQsAQIJA&' \
